@@ -1,0 +1,43 @@
+@model IEnumerable<StudentAffairs.Models.Section>
+
+@{
+    ViewData["Title"] = "Manage Sections";
+}
+
+<div class="container">
+    <h1>Manage Sections</h1>
+    <p>
+        <a asp-action="CreateSection" class="btn btn-success">Create New Section</a>
+    </p>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.CourseName)</th>
+                <th>@Html.DisplayNameFor(model => model.TeachingAssistant)</th>
+                <th>@Html.DisplayNameFor(model => model.DayOfWeek)</th>
+                <th>@Html.DisplayNameFor(model => model.StartTime)</th>
+                <th>@Html.DisplayNameFor(model => model.EndTime)</th>
+                <th>@Html.DisplayNameFor(model => model.LabNumber)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.CourseName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.TeachingAssistant)</td>
+                    <td>@Html.DisplayFor(modelItem => item.DayOfWeek)</td>
+                    <td>@item.StartTime.ToString("hh\\:mm")</td>
+                    <td>@item.EndTime.ToString("hh\\:mm")</td>
+                    <td>@Html.DisplayFor(modelItem => item.LabNumber)</td>
+                    <td>
+                        <form asp-action="DeleteSection" asp-route-id="@item.Id" method="post" style="display: inline;">
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this section?')">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div> 

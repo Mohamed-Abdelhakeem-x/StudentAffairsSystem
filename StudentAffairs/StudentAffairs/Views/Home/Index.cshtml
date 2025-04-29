@@ -1,0 +1,157 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="hero-section text-center py-5">
+    <div class="container">
+        <h1 class="display-4 mb-4">Welcome to Student Affairs</h1>
+        <p class="lead mb-4">Your comprehensive platform for academic success and student support</p>
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <div class="mt-4">
+                <a asp-controller="Account" asp-action="Register" class="btn btn-primary btn-lg me-3">
+                    <i class="fas fa-user-plus me-2"></i>Register Now
+                </a>
+                <a asp-controller="Account" asp-action="Login" class="btn btn-outline-primary btn-lg">
+                    <i class="fas fa-sign-in-alt me-2"></i>Login
+                </a>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="features-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Key Features</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-chalkboard-teacher fa-3x mb-3 text-primary"></i>
+                        <h3 class="card-title">Lecture Schedule</h3>
+                        <p class="card-text">Access your lecture schedule, view course details, and stay updated with your academic calendar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-users fa-3x mb-3 text-primary"></i>
+                        <h3 class="card-title">Section Management</h3>
+                        <p class="card-text">View and manage your section schedules, connect with teaching assistants, and access study materials.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-calendar-alt fa-3x mb-3 text-primary"></i>
+                        <h3 class="card-title">Academic Calendar</h3>
+                        <p class="card-text">Stay informed about important dates, deadlines, and academic events throughout the semester.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="announcements-section py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Latest Announcements</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Registration Open</h4>
+                        <p class="card-text">Spring semester registration is now open. Please check your email for registration instructions and deadlines.</p>
+                        <small class="text-muted">Posted: January 15, 2024</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Academic Support</h4>
+                        <p class="card-text">New academic support services are available. Visit the student resources section for more information.</p>
+                        <small class="text-muted">Posted: January 10, 2024</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="quick-links-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Quick Links</h2>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card text-center text-decoration-none">
+                    <div class="card-body">
+                        <i class="fas fa-book fa-2x mb-3 text-primary"></i>
+                        <h5>Course Catalog</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card text-center text-decoration-none">
+                    <div class="card-body">
+                        <i class="fas fa-graduation-cap fa-2x mb-3 text-primary"></i>
+                        <h5>Academic Calendar</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card text-center text-decoration-none">
+                    <div class="card-body">
+                        <i class="fas fa-question-circle fa-2x mb-3 text-primary"></i>
+                        <h5>Student Support</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card text-center text-decoration-none">
+                    <div class="card-body">
+                        <i class="fas fa-envelope fa-2x mb-3 text-primary"></i>
+                        <h5>Contact Us</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contact-section py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>Need Help?</h2>
+                <p class="lead">Our support team is here to assist you with any questions or concerns.</p>
+                <div class="mt-4">
+                    <p><i class="fas fa-phone me-2"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope me-2"></i> support@studentaffairs.edu</p>
+                    <p><i class="fas fa-clock me-2"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Send us a Message</h4>
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

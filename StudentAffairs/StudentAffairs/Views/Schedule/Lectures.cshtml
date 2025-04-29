@@ -1,0 +1,36 @@
+@model IEnumerable<StudentAffairs.Models.Lecture>
+
+@{
+    ViewData["Title"] = "Lecture Schedule";
+}
+
+<div class="container">
+    <h1>Lecture Schedule</h1>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.CourseName)</th>
+                    <th>@Html.DisplayNameFor(model => model.InstructorName)</th>
+                    <th>@Html.DisplayNameFor(model => model.DayOfWeek)</th>
+                    <th>@Html.DisplayNameFor(model => model.StartTime)</th>
+                    <th>@Html.DisplayNameFor(model => model.EndTime)</th>
+                    <th>@Html.DisplayNameFor(model => model.RoomNumber)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.CourseName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.InstructorName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.DayOfWeek)</td>
+                        <td>@item.StartTime.ToString("hh\\:mm")</td>
+                        <td>@item.EndTime.ToString("hh\\:mm")</td>
+                        <td>@Html.DisplayFor(modelItem => item.RoomNumber)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div> 

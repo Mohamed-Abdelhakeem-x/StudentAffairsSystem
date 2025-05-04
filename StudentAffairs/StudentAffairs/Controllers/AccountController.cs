@@ -34,7 +34,8 @@ namespace StudentAffairs.Controllers
                     UserName = model.Email,
                     Email = model.Email,
                     FirstName = model.FirstName,
-                    LastName = model.LastName
+                    LastName = model.LastName,
+                    StudentYear = model.StudentYear
                 };
 
                 var result = await _userManager.CreateAsync(user, model.Password);

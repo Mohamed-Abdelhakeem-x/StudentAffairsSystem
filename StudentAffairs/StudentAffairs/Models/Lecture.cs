@@ -31,5 +31,10 @@ namespace StudentAffairs.Models
         [Required]
         [Display(Name = "Room Number")]
         public string RoomNumber { get; set; }
+
+        [Required]
+        [Display(Name = "Student Year")]
+        [Range(1, 4, ErrorMessage = "Student year must be between 1 and 4")]
+        public int StudentYear { get; set; }
     }
 } 

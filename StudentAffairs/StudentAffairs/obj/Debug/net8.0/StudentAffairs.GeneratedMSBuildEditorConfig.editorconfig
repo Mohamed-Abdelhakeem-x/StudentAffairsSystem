@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentAffairs
 build_property.RootNamespace = StudentAffairs
-build_property.ProjectDir = C:\Users\7akee\OneDrive\Desktop\StudentAffairs\StudentAffairs\
+build_property.ProjectDir = C:\Users\7akee\Source\Repos\StudentAffairsSystem\StudentAffairs\StudentAffairs\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\7akee\OneDrive\Desktop\StudentAffairs\StudentAffairs
+build_property.MSBuildProjectDirectory = C:\Users\7akee\Source\Repos\StudentAffairsSystem\StudentAffairs\StudentAffairs
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Account/AccessDenied.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Account/Login.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Account/Register.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Admin/CreateLecture.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Admin/CreateLecture.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlTGVjdHVyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Admin/CreateSection.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Admin/CreateSection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlU2VjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Admin/Index.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Admin/ManageLectures.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Admin/ManageLectures.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlTGVjdHVyZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Admin/ManageSections.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Admin/ManageSections.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlU2VjdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Home/Index.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Home/Privacy.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Schedule/Lectures.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Schedule/Lectures.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVcTGVjdHVyZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Schedule/Sections.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Schedule/Sections.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVcU2VjdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Shared/Error.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/_ViewImports.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/_ViewStart.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/_ViewImports.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/7akee/OneDrive/Desktop/StudentAffairs/StudentAffairs/Views/Shared/_Layout.cshtml]
+[C:/Users/7akee/Source/Repos/StudentAffairsSystem/StudentAffairs/StudentAffairs/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-udzy0e72b6

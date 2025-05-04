@@ -27,5 +27,10 @@ namespace StudentAffairs.Models.ViewModels
         [Required]
         [Display(Name = "Last Name")]
         public string LastName { get; set; }
+
+        [Required]
+        [Display(Name = "Student Year")]
+        [Range(1, 4, ErrorMessage = "Please select a valid student year between 1 and 4.")]
+        public int StudentYear { get; set; }
     }
-} 
+}

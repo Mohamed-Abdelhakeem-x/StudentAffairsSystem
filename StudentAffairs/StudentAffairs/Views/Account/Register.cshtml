@@ -34,6 +34,17 @@
                 <input asp-for="ConfirmPassword" class="form-control" />
                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
             </div>
+            <div class="mb-3">
+                <label asp-for="StudentYear" class="form-label">Student Year</label>
+                <select asp-for="StudentYear" class="form-control">
+                    <option value="">Select Year</option>
+                    <option value="1">Year 1</option>
+                    <option value="2">Year 2</option>
+                    <option value="3">Year 3</option>
+                    <option value="4">Year 4</option>
+                </select>
+                <span asp-validation-for="StudentYear" class="text-danger"></span>
+            </div>
             <div class="d-grid gap-2">
                 <button type="submit" class="btn btn-primary">
                     <i class="fas fa-user-plus me-2"></i>Register
